@@ -2,7 +2,7 @@ import copy
 from . import Normalizer
 
 
-class MeshNormalizer:
+class PointCloudNormalizer:
     def __init__(self, point_cloud):
         self.point_cloud = point_cloud  # original copy of the mesh
         self.normalizer = Normalizer.get_bounding_sphere_normalizer(self.point_cloud.vertices)
