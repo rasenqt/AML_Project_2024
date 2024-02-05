@@ -23,7 +23,7 @@ from torchvision import transforms
 from utils import device, color_mesh
 
 
-def optimize(agrs):
+def optimize(args):
     # Constrain most sources of randomness
     # (some torch backwards functions within CLIP are non-determinstic)
     torch.manual_seed(args.seed)
