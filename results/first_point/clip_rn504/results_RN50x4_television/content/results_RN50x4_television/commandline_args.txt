@@ -1,0 +1,35 @@
+{
+  "seed": 0,
+  "obj_path": "./AML_Project_2024/dataset/television.obj",
+  "output_dir": "/content/results_RN50x4_television",
+  "object": [
+    "television"
+  ],
+  "classes": [
+    "shoes"
+  ],
+  "background": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "n_views": 5,
+  "frontview_std": 4,
+  "frontview_center": [
+    0.0,
+    0.0
+  ],
+  "show": false,
+  "n_augs": 1,
+  "clipavg": "view",
+  "render_res": 288,
+  "clipmodel": "RN50x4",
+  "jit": false,
+  "depth": 4,
+  "width": 256,
+  "n_classes": 2,
+  "positional_encoding": false,
+  "sigma": 5.0,
+  "learning_rate": 0.0001,
+  "n_iter": 2500
+}
