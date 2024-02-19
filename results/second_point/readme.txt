@@ -1,1 +1,0 @@
-il file mesh.py va sostituito con il file mesh.py che si trova dentro la cartella Point2Mesh (dopo che è stata scaricata da git) per fare in modo di poter runnare tutto su GPU più velocemente !!!

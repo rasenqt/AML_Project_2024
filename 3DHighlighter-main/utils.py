@@ -83,6 +83,8 @@ class FourierFeatureTransform(torch.nn.Module):
 
         res = 2 * np.pi * res
         return torch.cat([x, torch.sin(res), torch.cos(res)], dim=1)
+    
+     B = torch.ones(3, ,513)
 
 
 # mesh coloring helpers
